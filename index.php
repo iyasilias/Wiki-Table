@@ -28,7 +28,7 @@ echo "<html>
 <head><title>Excel xls to wiki copy and paste converter for wikipedia and mediawiki</title></head>
 <body><h1>Copy & Paste Excel-to-Wiki Converter</h1>
 <form action='index.php' method='post'><textarea name='data' rows='10' cols='50'></textarea><br /><input type='submit' /><input type='checkbox' name='header' checked='checked'>format header<br />
-<input type='checkbox' name='first_row'>link column pertama [ subpage kepada <input type='text' name='sistem' /> ]
+<input type='checkbox' name='first_row'>first column has link [ optional: subpage to <input type='text' name='sistem' /> ]
 <br />
 <input type='checkbox' name='empty_cell'>add empty <input type='text' name='noOfcell' size='5' /> cell(s)</form>";
 
